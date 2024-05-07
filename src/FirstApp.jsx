@@ -7,8 +7,8 @@ export const FirstApp = ({ title, subTitle, name }) => {
 		<>
 			<h1 data-testid="test-title"> {title} </h1>
 			{/* <code>{ JSON.stringify( newMessage ) }</code> */}
-			<p>{subTitle}</p>
-			<p>{subTitle}</p>
+			<h2>{subTitle}</h2>
+			<h2>{subTitle}</h2>
 
 			<p>{name}</p>
 		</>
